@@ -1,6 +1,9 @@
 # tbcd
 Basic Implementation of Telephony BCD in pure GoLang
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 ## Example
 ```
 package main
