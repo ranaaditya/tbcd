@@ -4,7 +4,13 @@ Basic Implementation of Telephony BCD in pure GoLang
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-## Example
+
+### Building from source
+Requires Go to be [installed](https://golang.org/doc/install) and [configured](https://golang.org/doc/install#testing)
+```
+go get github.com/ranaaditya/tbcd
+```
+### Usage
 ```
 package main
 
