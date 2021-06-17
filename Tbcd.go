@@ -43,7 +43,7 @@ var reverseTbcdSymbolMap map[string]string = map[string]string{
 	"1111": "f",
 }
 
-var TbcdSymbols = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "a", "b", "c"}
+var TbcdSymbols = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "#", "a", "b", "c"}
 
 func EncodeToTBCD(input string) (string, error) {
 	input = strings.ToLower(input)
