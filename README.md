@@ -19,7 +19,7 @@ import tbcd "github.com/ranaaditya/tbcd"
 func main() {
 
     var message string = "0123456789*#abc"
-    encodedmessage, err: = tbcd.EncodeToTBCD(message)
+    encodedmessage, err := tbcd.EncodeToTBCD(message)
 
     if err == nil {
         fmt.Println("Encoded Message in TBCD format is :", encodedmessage)
@@ -27,7 +27,7 @@ func main() {
         fmt.Println(err)
     }
 
-    originalmessage, err1: = tbcd.DecodeToTBCD(encodedmessage)
+    originalmessage, err1 := tbcd.DecodeToTBCD(encodedmessage)
 
     if err1 == nil {
         fmt.Println("Decoded message is :", originalmessage)
