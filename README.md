@@ -37,3 +37,5 @@ func main() {
 
 }
 ```
+
+#### Get it on [pkg.go.dev](https://pkg.go.dev/github.com/ranaaditya/tbcd)
